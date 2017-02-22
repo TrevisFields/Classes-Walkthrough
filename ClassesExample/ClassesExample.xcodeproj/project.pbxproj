@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E671A051E5DFE54006C3A86 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E671A041E5DFE54006C3A86 /* main.cpp */; };
 		6E671A101E5DFFD2006C3A86 /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E671A0F1E5DFFD2006C3A86 /* student.cpp */; };
+		6E671A121E5E0440006C3A86 /* Teacher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E671A111E5E0440006C3A86 /* Teacher.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		6E671A041E5DFE54006C3A86 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6E671A0E1E5DFFC0006C3A86 /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
 		6E671A0F1E5DFFD2006C3A86 /* student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		6E671A111E5E0440006C3A86 /* Teacher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Teacher.cpp; sourceTree = "<group>"; };
+		6E671A131E5E0453006C3A86 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				6E671A041E5DFE54006C3A86 /* main.cpp */,
 				6E671A0E1E5DFFC0006C3A86 /* student.h */,
 				6E671A0F1E5DFFD2006C3A86 /* student.cpp */,
+				6E671A111E5E0440006C3A86 /* Teacher.cpp */,
+				6E671A131E5E0453006C3A86 /* Teacher.h */,
 			);
 			path = ClassesExample;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			files = (
 				6E671A051E5DFE54006C3A86 /* main.cpp in Sources */,
 				6E671A101E5DFFD2006C3A86 /* student.cpp in Sources */,
+				6E671A121E5E0440006C3A86 /* Teacher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

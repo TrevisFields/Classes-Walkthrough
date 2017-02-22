@@ -1,7 +1,7 @@
 #include "student.h"
 using namespace std;
 
-Student::Student(string name)
+Student::Student(string name) : _name(name)
 {
   
 }

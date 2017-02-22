@@ -1,14 +1,13 @@
 #pragma one
 #include <string>
 
-class Student
+class Teacher
 {
 private:
   std::string _name;
-
 public:
-  Student(std::string _name);
-  ~Student();
+  Teacher(std::string name);
+  ~Teacher();
   
   std::string GetName();
 };
