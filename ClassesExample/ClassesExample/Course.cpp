@@ -20,3 +20,20 @@ bool Course::EnrollStudent(Student newStudent,int position)
 	 }
   return false;
 }
+
+string Course::GetClassInfo()
+{
+string info = "Course information for " + _name + "\n";
+  info += _description;
+  info += "---------------------------------";
+  info += "\n";
+  for(auto student : _students)
+	 {
+		if (student.GetName() != "Null")
+		{
+			info += student.GetName() + "\n";
+		}
+		
+	 }
+  return info;
+}

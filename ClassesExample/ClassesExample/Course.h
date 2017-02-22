@@ -1,4 +1,4 @@
-#pragma one
+#pragma once
 #include <string>
 #include "student.h"
 #include "teacher.h"
@@ -15,4 +15,5 @@ public:
   ~Course();
   
   bool EnrollStudent(Student newStudent, int position);
+  std::string GetClassInfo();
 };

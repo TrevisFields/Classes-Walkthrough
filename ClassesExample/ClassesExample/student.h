@@ -1,7 +1,7 @@
-#pragma one
+#pragma once
 #include <string>
 
-class Student
+class Student //Redefiniton of'Student'
 {
 private:
   std::string _name;
