@@ -1,7 +1,7 @@
-  #pragma once//Top of header files include #pragma once
+#pragma once
 #include <string>
 
-class Teacher //Redefiniton of 'Teacher'
+class Teacher
 {
 private:
   std::string _name;
@@ -11,3 +11,4 @@ public:
   
   std::string GetName();
 };
+

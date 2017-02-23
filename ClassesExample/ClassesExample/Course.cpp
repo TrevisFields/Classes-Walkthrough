@@ -7,14 +7,14 @@ Course::Course(string name, string description, Teacher teacher)
 {
 }
 
+
 Course::~Course()
 {
 }
 
 bool Course::EnrollStudent(Student newStudent,int position)
 {
-  if(position <= 9 && _students[position].GetName() != "Null")
-	 {
+  if(position <= 9 && _students[position].GetName() != "Null"){
 		_students[position] = newStudent;
   return true;
 	 }
@@ -25,15 +25,13 @@ string Course::GetClassInfo()
 {
 string info = "Course information for " + _name + "\n";
   info += _description;
-  info += "---------------------------------";
+  info += "\n---------------------------------";
   info += "\n";
   for(auto student : _students)
 	 {
-		if (student.GetName() != "Null")
-		{
+		if (student.GetName() != "Null"){
 			info += student.GetName() + "\n";
 		}
-		
 	 }
   return info;
 }
