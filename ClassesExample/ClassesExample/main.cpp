@@ -11,11 +11,35 @@ int main()
   Student kid = Student("kid");
   Student girl = Student("girl");
   
+  //FEBRUARY 27 2017 Addition
+  /*****************************/
+  for (int i = 0; i < 3; i++)
+	 {
+	 auto student = Student("Test");
+	 }
+  /***************************/
   cis17.EnrollStudent(kid, 0);
   cis17.EnrollStudent(girl, 1);
   
-  cout << cis17.GetClassInfo() << endl;
+  //FEBRURARY 27 2017 Addition
+  /****************************/
+  auto info = cis17.GetClassInfo();
+  cout << info;
+  /**************************/
   
   getchar();
   return 0;
 }
+
+
+/*
+ 
+ LECTURE 3: That's it (Project 1 DUE FRIDAY MARCH 3 @ MIDNIGHT
+ - 4 Classes (of your own)
+ - instantiaton
+ - Constructors/ Destructors
+ - Public & Private memebers
+ Object Re-use
+ UML
+ 
+ */
